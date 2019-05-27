@@ -1,0 +1,14 @@
+## YAML Template.
+info:
+    component: SpringConfig-Server
+    
+server:
+    port: 8888
+    
+spring:
+    cloud:
+        config:
+            server: https://github.com/kydann/Spring.Cloud.Config.Server
+            
+    profiles:
+        active: dev
